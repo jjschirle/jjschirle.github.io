@@ -82,7 +82,7 @@ a:hover {
   .link-icons:hover {
     color: var(--primary);
   }
-  }
+}
 `;
 
 export default GlobalStyling;

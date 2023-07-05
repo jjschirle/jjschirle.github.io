@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { AppProvider } from "./AppContext";
+import "bootstrap/dist/css/bootstrap.css";
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

@@ -1,9 +1,3 @@
-// Skills icons - https://icon-sets.iconify.design/
-import { Icon } from "@iconify/react";
-
-// Projects Images (add your images to the images directory and import below)
-import Logo from "./images/logo.svg";
-
 // Hero Images (add your images to the /images directory with the same names)
 //import HeroLight from "./images/hero-light.jpg";
 //import HeroDark from "./images/hero-dark.jpg";
@@ -16,7 +10,10 @@ import Logo from "./images/logo.svg";
  **************************************************************
   Add your GitHub username (string - "YourUsername") below.
 */
-export const githubUsername = "jjschirle.github.io";
+export const my_name = "Joseph Schirle"
+/*export const githubUsername = "jjschirle.github.io";*/
+export const github_url = "https://github.com/jjschirle"
+export const linkedin_url = "https://www.linkedin.com/in/josephschirle/"
 
 // Blog link icon - https://icon-sets.iconify.design/
 
