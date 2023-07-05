@@ -9,7 +9,7 @@ export default function PresonalProjects() {
             height: '90vh'
             }}
         >
-            <h1>PresonalProjects</h1>
+            <h1>Presonal Projects</h1>
         </div>
     );
 };
