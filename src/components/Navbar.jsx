@@ -65,7 +65,7 @@ function ThemeToggle() {
       />
       <div>
         {theme === "light" ? (
-          <Icon icon="game-icons:sunflower" />
+          <Icon icon="vaadin:sun-o" />
         ) : (
           <Icon icon="game-icons:moon" />
         )}
@@ -75,8 +75,8 @@ function ThemeToggle() {
 }
 
 export default function NavBar() {
-  const { theme, isExpanded, closeExpanded, toggleExpanded } = useAppContext();
   const { pathname } = useLocation();
+  const { theme, isExpanded, closeExpanded, toggleExpanded } = useAppContext();
 
   return (
     <>

@@ -1,9 +1,7 @@
 // Hero Images (add your images to the /images directory with the same names)
-//import HeroLight from "./images/hero-light.jpg";
-//import HeroDark from "./images/hero-dark.jpg";
+// import profile from "../images/example_profile.jpg"
 // If you change the import names above then you need to change the export names below
-//export { HeroLight as Light };
-//export { HeroDark as Dark };
+
 
 
 /* START HERE
@@ -15,13 +13,10 @@ export const my_name = "Joseph Schirle"
 export const github_url = "https://github.com/jjschirle"
 export const linkedin_url = "https://www.linkedin.com/in/josephschirle/"
 
-// Blog link icon - https://icon-sets.iconify.design/
+// BufferedImage scale_profile_pic = profile.getSubimage()
 
-
-/* About Me
- **************************************************************
-  Add a second paragraph for the about me section.
-*/
+/* About Me */
+export const about_text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
 
 /* Skills
  ************************************************************** 

@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+// https://reactjs.org/docs/context.html
 import { AppProvider } from "./AppContext";
 import "bootstrap/dist/css/bootstrap.css";
 import App from './App';
