@@ -1,18 +1,18 @@
+import { Col, Container, Row } from "react-bootstrap";
 // skills
 import { my_skills } from "../GlobalConsts"
 // Components
-import { Col, Container, Row } from "react-bootstrap";
-import { Title } from "./GlobalStylingComponents";
+import { StyledCVHeader } from "./GlobalStylingComponents";
 
 
 export default function Skills() {  
     return (
-    <section className="section">
+    <section className="sectionCV">
         <Container className="text-center">
-        <Title>
-            <h2>Skills</h2>
+        <StyledCVHeader>
+            <h1>Skills</h1>
             <div className="underline"></div>
-        </Title>
+        </StyledCVHeader>
         <Row className="mt-3 align-items-center">
             {my_skills.map((skills) => {
             return (

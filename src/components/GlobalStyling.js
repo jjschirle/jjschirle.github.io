@@ -35,6 +35,7 @@ a:hover {
     background: ${({ theme }) =>
       theme.name === "light" ? "#45413C" : "#797B7B"};
   }
+
 }
 .link-icons {
   line-height: 0;
@@ -47,6 +48,12 @@ a:hover {
 }
 .section {
   min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: var(--nav-height) 0;
+}
+.sectionCV {
+  min-height: 10vh;
   display: grid;
   place-items: center;
   padding: var(--nav-height) 0;
@@ -69,6 +76,9 @@ a:hover {
 .page-item.active .page-link {
     background-color: var(--primary);
     border-color: var(--primary);
+}
+.active{
+  font-weight: 500;
 }
 @media screen and (min-width: 800px) {
   .link-icons {

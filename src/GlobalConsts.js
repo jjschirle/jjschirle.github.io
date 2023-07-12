@@ -76,3 +76,52 @@ export const my_skills = [
   Add your formspree endpoint below.
   https://formspree.io/
 */
+/* Formatted to support future additions */
+export const CV_data = {
+  experience: [
+      {
+        title: "Undergraduate Student Researcher",
+        period: "Sept. 2021 - present",
+        company: "Graeber Lab, UCLA",
+        description: [
+          "Conducted differential gene expression analysis utilizing DESeq2 across numerous cohorts to identify gene expression signatures linked to uveal melanoma (UVM) phenotypes",
+          "Principal Component Analysis (PCA) and integration with DESeq2 derived signatures",
+          "Conducted Gene Set Enrichment Analysis (GSEA) to identify biological processes whose enrichment is correlated with UVM phenotypes, differentiation, and drug sensitivity.",
+          "Developed a script for visualizing GSEA results",
+          "Conducted linear regression analyses on UVM cell lines to elucidate correlation between -omic data and therapeutic vulnerabilities, metastatic potential, and aggressive phenotypes",
+          "Created a script to calculate whole chromosome copy number variation from SEG file input",
+          "Developed scripts to create figures to aid in visualization and interpretation of results"
+        ]
+      },
+    ],
+  academics: [
+      {
+        university: "University of California, Los Angeles",
+        period: "Sept. 2021 - August 2023",
+        major: "BS, Computational and Systems Biology with Biological Data Sciences Specialization",
+        accolades: [
+          "GPA: 3.910 cumulative, 3.920 major, 3.933 upper div.",
+          "Honors: UCLA Dean's Honors List",
+          "Jonsson Comprehensive Cancer Center (JCCC) Trainee Member",
+          "Relevant Courses: Life Sciences Series, Probability and Mathematical Statistics, Biological Modeling, Data Structures and Object-Oriented Programming, Introduction to Bioinformatics, Machine Learning and ML in Bioinformatics"
+        ]
+      },
+      {
+        university: "Santa Monica College (SMC)",
+        period: "Aug. 2017 - June 2021",
+        major: "",
+        accolades: [
+          "GPA: 3.85",
+          "Honors: SMC Dean's Honors List",
+          "Relevant Courses: Multivariable Calculus, Ordinary Differential Equations, Linear Algebra, Discrete Structures/Mathematics, Chemistry, Physics"
+        ]
+      },
+    ],
+    presentations: [
+      {
+        title: "Regression Based Analysis of Uveal Melanoma Cell Lines Reveals Signatures Associated with Drug Sensitivity.",
+        event: "UCLA Undergraduate Research Week",
+        location: "(May 2023, Westwood, CA)",
+      },
+    ],
+};
