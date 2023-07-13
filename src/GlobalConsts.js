@@ -1,6 +1,8 @@
 // Icons found here: https://icon-sets.iconify.design/
 import { Icon } from "@iconify/react";
-/* Images for personal projects */
+/* Images for personal projects 
+   Some found here: https://www.svgrepo.com/vectors/machine-learning/
+*/
 import ReactLogo from "./images/logo.svg"
 import MLLogo from "./images/machine-learning-model-svgrepo-com.svg"
 /* Useful consts */

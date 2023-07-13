@@ -12,6 +12,7 @@ import About from "./pages/About";
 import CV from "./pages/CV";
 import PersonalProjects from "./pages/PersonalProjects";
 import Contact from "./pages/Contact";
+import NotFound from './pages/404Page';
 
 
 
@@ -59,6 +60,7 @@ function App() {
           <Route exact path="/CV" element={<CV/>} />
           <Route exact path="/Personal-Projects" element={<PersonalProjects/>} />
           <Route exact path="/Contact" element={<Contact/>} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </ThemeProvider>
     </HashRouter>
