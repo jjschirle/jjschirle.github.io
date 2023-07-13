@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.1cafa257.css",
-    "main.js": "/static/js/main.c74bb7e8.js",
+    "main.js": "/static/js/main.d23c6f5e.js",
     "static/js/787.a5396c2e.chunk.js": "/static/js/787.a5396c2e.chunk.js",
-    "static/media/luca_pic.JPEG": "/static/media/luca_pic.c3de9318f6a7e8ee3f84.JPEG",
+    "static/media/portrait.jpg": "/static/media/portrait.a883e15ce89537e0117f.jpg",
     "static/media/hero-dark.jpg": "/static/media/hero-dark.37f2556d620821979e99.jpg",
     "static/media/hero-light.jpg": "/static/media/hero-light.78b77836d8aee4d7d3cb.jpg",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
@@ -11,11 +11,11 @@
     "index.html": "/index.html",
     "static/media/machine-learning-model-svgrepo-com.svg": "/static/media/machine-learning-model-svgrepo-com.c947845961f11a9027f152f2238bc355.svg",
     "main.1cafa257.css.map": "/static/css/main.1cafa257.css.map",
-    "main.c74bb7e8.js.map": "/static/js/main.c74bb7e8.js.map",
+    "main.d23c6f5e.js.map": "/static/js/main.d23c6f5e.js.map",
     "787.a5396c2e.chunk.js.map": "/static/js/787.a5396c2e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1cafa257.css",
-    "static/js/main.c74bb7e8.js"
+    "static/js/main.d23c6f5e.js"
   ]
 }
