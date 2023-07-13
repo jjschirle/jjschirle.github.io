@@ -88,7 +88,7 @@ export const StyledCVtext = styled.div`
   height: 5px;
   background-color: var(--text-color);
   border-radius: 50%;
-  margin-right: 0.75rem;
+  margin-right: 0.50rem;
   }
   .bd-grid {
     display: grid;

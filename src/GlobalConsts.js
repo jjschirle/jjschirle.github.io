@@ -1,8 +1,7 @@
 // Icons found here: https://icon-sets.iconify.design/
 import { Icon } from "@iconify/react";
-
-
-/* General consts */
+import ReactLogo from "./images/logo.svg"
+/* Useful consts */
 export const my_name = "Joseph Schirle"
 /*export const githubUsername = "jjschirle.github.io";*/
 export const github_url = "https://github.com/jjschirle"
@@ -61,28 +60,33 @@ export const my_skills = [
     name: "Git",
   },
 ];
-// Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
+// Replace the default GitHub image for matching repos below (images imported above - lines 4-5)
 
+/* Personal Projects data. Formatted to support future additions */
+export const Project_data = [
+  {
+    id: 1,
+    Name: "Tumor classification using various algorithms",
+    description: "Classifying tumors with various ML models",
+    url: "https://github.com/jjschirle/Tumor-classification-using-various-algorithms",
+    image: "",
+  },
+  {
+    id: 2,
+    Name: "jjschirle.github.io",
+    description: "My website built with React",
+    url: "https://github.com/jjschirle/jjschirle.github.io",
+    image: ReactLogo,
+  },
+];
 
-/* Projects
- ************************************************************** 
-  List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
-*/
-
-// Replace the defualt GitHub image for matching repos below (images imported above - lines 4-5)
-
-/* Contact Info
- ************************************************************** 
-  Add your formspree endpoint below.
-  https://formspree.io/
-*/
-/* Formatted to support future additions */
+/* CV data. Formatted to support future additions */
 export const CV_data = {
   experience: [
       {
-        title: "Undergraduate Student Researcher",
+        title: "Undergraduate Student Researcher, Graeber Lab",
         period: "Sept. 2021 - present",
-        company: "Graeber Lab, UCLA",
+        company: "UCLA Department of Molecular and Medical Pharmacology",
         description: [
           "Conducted differential gene expression analysis utilizing DESeq2 across numerous cohorts to identify gene expression signatures linked to uveal melanoma (UVM) phenotypes",
           "Principal Component Analysis (PCA) and integration with DESeq2 derived signatures",
