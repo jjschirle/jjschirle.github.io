@@ -3,21 +3,16 @@ import styled from "styled-components";
 import { Col, Container, Row } from "react-bootstrap";
 import { Title } from "../components/GlobalStylingComponents";
 import { about_text } from '../GlobalConsts';
-import profile_pic from "../images/luca_pic.JPEG"
+import profile_pic from "../images/portrait.jpg"
+
 
 const StyledAboutMe = styled.section`
   p {
     font-size: 1.25rem;
   }
-  .img {
-    width: 18rem;
-    height: 18rem;
-  }
 `;
 
 export default function About() {
-    
-
     return (
       <StyledAboutMe className="section">
         <Container>
@@ -27,19 +22,23 @@ export default function About() {
               <div className="underline"></div>
             </Title>
           </Container>
-          <Row className="align-items-center mt-5">
-            <Col className="d-flex flex-column text-center">
-              <Container>
-                {about_text && <p>{about_text}</p>}
-              </Container>
-            </Col>
-            <Col className="d-none d-md-block text-center">
+          <Row className="d-md-flex justify-content-center">
+                {about_text.map((id) => {
+                return (
+                    <Row key={about_text.id} className="">
+                            <Container>
+                              <p>{id.text}</p>
+                            </Container>
+                    </Row>
+                );
+                })}
+            <Col className="d-md-flex text-center">
               <img
                 src={profile_pic}
-                alt="GitHub Avatar"
+                alt="profile pic"
                 loading="lazy"
                 className="mx-auto rounded-circle"
-                style={{ width: "15rem", height: "15rem" }}
+                style={{ width: "20rem", height: "20rem" }}
               />
             </Col>
           </Row>

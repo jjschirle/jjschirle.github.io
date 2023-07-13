@@ -13,8 +13,21 @@ export const linkedin_url = "https://www.linkedin.com/in/josephschirle/"
 export const formspreeUrl = "https://formspree.io/f/xrgwgjqw"
 // BufferedImage scale_profile_pic = profile.getSubimage()
 
-/* About Me */
-export const about_text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+/* About Me. Split by paragraph */
+export const about_text = [
+  {
+    id: 1,
+    text: "Hello! I'm Joseph Schirle. You can call me JJ. I'm a computational and systems biology major with a passion for advancing research at the intersection of biology and technology. I am deeply interested in bioinformatics, and have had a specific focus on translational cancer research. I am driven by the potential to develop novel bioinformatics tools that aid in understanding complex biological processes and contribute to advancements in cancer diagnostics, treatments, and genetics.",
+  },
+  {
+    id: 2,
+    text: "On the software engineering front, I aspire to work with cutting-edge technologies in the cloud computing domain, and leverage the power of machine learning to develop innovative solutions to a host of problems. I am excited about leveraging my expertise in data analysis, scripting, and programming languages such as Python and R to tackle challenging problems.",
+  },
+  {
+    id: 3,
+    text: "Through my website, I aim to showcase some of my projects and skills while connecting with like-minded professionals and exploring opportunities to contribute to impactful projects in the fields of bioinformatics, computational biology, and software engineering.",
+  },
+];
 
 /* Skills */
 export const my_skills = [
