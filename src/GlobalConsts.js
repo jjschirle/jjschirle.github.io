@@ -1,12 +1,14 @@
 // Icons found here: https://icon-sets.iconify.design/
 import { Icon } from "@iconify/react";
+/* Images for personal projects */
 import ReactLogo from "./images/logo.svg"
+import MLLogo from "./images/machine-learning-model-svgrepo-com.svg"
 /* Useful consts */
 export const my_name = "Joseph Schirle"
 /*export const githubUsername = "jjschirle.github.io";*/
 export const github_url = "https://github.com/jjschirle"
 export const linkedin_url = "https://www.linkedin.com/in/josephschirle/"
-
+export const formspreeUrl = "https://formspree.io/f/xrgwgjqw"
 // BufferedImage scale_profile_pic = profile.getSubimage()
 
 /* About Me */
@@ -69,7 +71,7 @@ export const Project_data = [
     Name: "Tumor classification using various algorithms",
     description: "Classifying tumors with various ML models",
     url: "https://github.com/jjschirle/Tumor-classification-using-various-algorithms",
-    image: "",
+    image: MLLogo,
   },
   {
     id: 2,
