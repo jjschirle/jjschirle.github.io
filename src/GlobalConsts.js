@@ -105,13 +105,12 @@ export const CV_data = {
         period: "Sept. 2021 - present",
         company: "UCLA Department of Molecular and Medical Pharmacology",
         description: [
-          "Conducted differential gene expression analysis utilizing DESeq2 across numerous cohorts to identify gene expression signatures linked to uveal melanoma (UVM) phenotypes",
-          "Principal Component Analysis (PCA) and integration with DESeq2 derived signatures",
-          "Conducted Gene Set Enrichment Analysis (GSEA) to identify biological processes whose enrichment is correlated with UVM phenotypes, differentiation, and drug sensitivity.",
-          "Developed a script for visualizing GSEA results",
-          "Conducted linear regression analyses on UVM cell lines to elucidate correlation between -omic data and therapeutic vulnerabilities, metastatic potential, and aggressive phenotypes",
-          "Created a script to calculate whole chromosome copy number variation from SEG file input",
-          "Developed scripts to create figures to aid in visualization and interpretation of results"
+          "Led differential gene expression analyses using DESeq2 across diverse cohorts to uncover gene expression signatures associated with uveal melanoma (UVM) phenotypes, providing insights into disease progression", 
+          "Employed Principal Component Analysis (PCA) to integrate DESeq2-derived signatures, effectively identifying complex relationships within gene expression and uncovering underlying patterns", 
+          "Conducted Gene Set Enrichment Analysis (GSEA) to unveil critical biological processes correlated with UVM phenotypes, differentiation, and drug sensitivity, contributing to a deeper understanding of disease mechanisms", 
+          "Pioneered the development of scripts that generated informative figures, such as a script for visualizing GSEA results, enabling clear and intuitive representation of the data, facilitating data-driven insights", 
+          "Conducted linear regression analyses on UVM cell lines, elucidating robust correlations between -omics data and critical factors such as therapeutic vulnerabilities, metastatic potential, and aggressive phenotypes", 
+          "Created a script to calculate whole chromosome copy number variation from SEG file input"
         ]
       },
     ],
@@ -121,7 +120,7 @@ export const CV_data = {
         period: "Sept. 2021 - August 2023",
         major: "BS, Computational and Systems Biology with Biological Data Sciences Specialization",
         accolades: [
-          "GPA: 3.910 cumulative, 3.920 major, 3.933 upper div.",
+          "GPA: 3.914 cumulative, 3.920 major, 3.933 upper div.",
           "Honors: UCLA Dean's Honors List",
           "Jonsson Comprehensive Cancer Center (JCCC) Trainee Member",
           "Relevant Courses: Life Sciences Series, Probability and Mathematical Statistics, Biological Modeling, Data Structures and Object-Oriented Programming, Introduction to Bioinformatics, Machine Learning and ML in Bioinformatics"

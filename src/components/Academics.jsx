@@ -27,6 +27,9 @@ export default function Academics() {
                                     <h1>{college.period}</h1>
                                     </Col>
                                 </Row>
+                                <Row>
+                                    <h1>{college.major}</h1>
+                                </Row>
                             </Container>
                             <div className="bd-grid">
                                 <ul>
