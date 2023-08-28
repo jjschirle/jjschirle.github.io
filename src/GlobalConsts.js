@@ -117,7 +117,7 @@ export const CV_data = {
   academics: [
       {
         university: "University of California, Los Angeles",
-        period: "Sept. 2021 - August 2023",
+        period: "Sept. 2021 - September 2023",
         major: "BS, Computational and Systems Biology with Biological Data Sciences Specialization",
         accolades: [
           "GPA: 3.914 cumulative, 3.920 major, 3.933 upper div.",
