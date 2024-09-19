@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1cafa257.css",
-    "main.js": "/static/js/main.07b4c5dc.js",
+    "main.js": "/static/js/main.849c5795.js",
     "static/js/787.a5396c2e.chunk.js": "/static/js/787.a5396c2e.chunk.js",
     "static/media/portrait.jpg": "/static/media/portrait.a883e15ce89537e0117f.jpg",
     "static/media/hero-dark.jpg": "/static/media/hero-dark.37f2556d620821979e99.jpg",
@@ -11,11 +11,11 @@
     "index.html": "/index.html",
     "static/media/machine-learning-model-svgrepo-com.svg": "/static/media/machine-learning-model-svgrepo-com.c947845961f11a9027f152f2238bc355.svg",
     "main.1cafa257.css.map": "/static/css/main.1cafa257.css.map",
-    "main.07b4c5dc.js.map": "/static/js/main.07b4c5dc.js.map",
+    "main.849c5795.js.map": "/static/js/main.849c5795.js.map",
     "787.a5396c2e.chunk.js.map": "/static/js/787.a5396c2e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1cafa257.css",
-    "static/js/main.07b4c5dc.js"
+    "static/js/main.849c5795.js"
   ]
 }
