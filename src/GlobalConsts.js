@@ -17,16 +17,16 @@ export const formspreeUrl = "https://formspree.io/f/xrgwgjqw"
 export const about_text = [
   {
     id: 1,
-    text: "Hello! I'm Joseph Schirle. You can call me JJ. I'm a computational and systems biology major with a passion for advancing research at the intersection of biology and technology. I am deeply interested in bioinformatics, and have had a specific focus on translational cancer research. I am driven by the potential to develop novel bioinformatics tools that aid in understanding complex biological processes and contribute to advancements in cancer diagnostics, treatments, and genetics.",
+    text: "Hello! I'm JJ Schirle. I am currently a Biomathematics PhD student in UCLA's Department of Computational Medicine.",
   },
   {
     id: 2,
-    text: "On the software engineering front, I aspire to work with cutting-edge technologies in the cloud computing domain, and leverage the power of machine learning to develop innovative solutions to a host of problems. I am excited about leveraging my expertise in data analysis, scripting, and programming languages such as Python and R to tackle challenging problems.",
+    text: "I am interested in problems rooted at the intersection of biology, statistics, mathematics, and computer science.",
   },
-  {
-    id: 3,
-    text: "Through my website, I aim to showcase some of my projects and skills while connecting with like-minded professionals and exploring opportunities to contribute to impactful projects in the fields of bioinformatics, computational biology, and software engineering.",
-  },
+  // {
+  //   id: 3,
+  //   text: "",
+  // },
 ];
 
 /* Skills */
@@ -91,7 +91,7 @@ export const Project_data = [
   {
     id: 2,
     Name: "jjschirle.github.io",
-    description: "My website built with React",
+    description: "Website built with React",
     url: "https://github.com/jjschirle/jjschirle.github.io",
     image: ReactLogo,
   },
@@ -100,27 +100,45 @@ export const Project_data = [
 /* CV data. Formatted to support future additions */
 export const CV_data = {
   experience: [
-      {
+    {
+      title: "Research Technician - Bioinforamtics",
+      period: "Oct. 2023 - Aug. 2024",
+      company: "Capsida Biotherapeutics",
+      description: [
+        "NGS pipeline and analysis development."
+      ]
+    },  
+    {
         title: "Undergraduate Student Researcher, Graeber Lab",
-        period: "Sept. 2021 - present",
+        period: "Sept. 2021 - Sept. 2023",
         company: "UCLA Department of Molecular and Medical Pharmacology",
         description: [
-          "Led differential gene expression analyses using DESeq2 across diverse cohorts to uncover gene expression signatures associated with uveal melanoma (UVM) phenotypes, providing insights into disease progression", 
-          "Employed Principal Component Analysis (PCA) to integrate DESeq2-derived signatures, effectively identifying complex relationships within gene expression and uncovering underlying patterns", 
-          "Conducted Gene Set Enrichment Analysis (GSEA) to unveil critical biological processes correlated with UVM phenotypes, differentiation, and drug sensitivity, contributing to a deeper understanding of disease mechanisms", 
-          "Pioneered the development of scripts that generated informative figures, such as a script for visualizing GSEA results, enabling clear and intuitive representation of the data, facilitating data-driven insights", 
-          "Conducted linear regression analyses on UVM cell lines, elucidating robust correlations between -omics data and critical factors such as therapeutic vulnerabilities, metastatic potential, and aggressive phenotypes", 
-          "Created a script to calculate whole chromosome copy number variation from SEG file input"
+          "Led differential gene expression analyses using DESeq2 to model gene expression signatures associated with aggresive phenotypes and differentiation, providing insights into disease progression.",
+          "Employed Principal Component Analysis (PCA) and non-linear dimensionality reduction to integrate DESeq2 and metabolomics derived signatures.",
+          "Conducted linear regression analyses on cell lines, elucidating correlations between -omics data and critical factors such as therapeutic vulnerabilities, metastatic potential, and aggressive phenotypes.",
+          "Conducted Gene Set Enrichment Analysis (GSEA) to unveil biological processes correlated with UVM phenotypes, differentiation, and drug sensitivity, contributing to a deeper understanding of disease mechanisms.",
+          "Utilized hypergeometric overlap modeling to integrate cell line and publicly available tumor data."
         ]
       },
     ],
   academics: [
       {
         university: "University of California, Los Angeles",
-        period: "Sept. 2021 - September 2023",
+        period: "Sept. 2024 - Present",
+        major: "PhD, Biomathematics",
+        accolades: [
+          // "GPA: 3.917 cumulative, 3.925 major, 3.938 upper div.",
+          // "Honors: UCLA Dean's Honors List",
+          // "Jonsson Comprehensive Cancer Center (JCCC) Trainee Member",
+          // "Relevant Courses: Life Sciences Series, Probability and Mathematical Statistics, Biological Modeling, Data Structures and Object-Oriented Programming, Introduction to Bioinformatics, Machine Learning and ML in Bioinformatics"
+        ]
+      },
+      {
+        university: "University of California, Los Angeles",
+        period: "Sept. 2021 - Sept. 2023",
         major: "BS, Computational and Systems Biology with Biological Data Sciences Specialization",
         accolades: [
-          "GPA: 3.914 cumulative, 3.920 major, 3.933 upper div.",
+          "GPA: 3.917 cumulative, 3.925 major, 3.938 upper div.",
           "Honors: UCLA Dean's Honors List",
           "Jonsson Comprehensive Cancer Center (JCCC) Trainee Member",
           "Relevant Courses: Life Sciences Series, Probability and Mathematical Statistics, Biological Modeling, Data Structures and Object-Oriented Programming, Introduction to Bioinformatics, Machine Learning and ML in Bioinformatics"
